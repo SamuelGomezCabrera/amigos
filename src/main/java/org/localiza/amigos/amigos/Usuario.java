@@ -1,15 +1,18 @@
 package org.localiza.amigos.amigos;
+
+
 import org.springframework.data.annotation.Id;
 
 import java.util.*;
 
+
 public class Usuario {
     @Id
     String nickname;
-    String nombre;
-    String paterno;
-    String email;
-    ArrayList<Coordenada> coordenadas;
+    String    nombre;
+    String    paterno;
+    String   email;
+    ArrayList<Coordenada>   coordenadas;
     public Usuario(){}
 
     @Override

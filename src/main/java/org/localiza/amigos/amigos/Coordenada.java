@@ -28,9 +28,5 @@ public class Coordenada {
         this.lng = lng;
     }
 
-
-
-    public Coordenada(){       }
-
-
+    public Coordenada(){  }
 }
